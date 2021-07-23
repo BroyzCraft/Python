@@ -4,7 +4,7 @@ import time
 navegador = webdriver.Chrome()
 
 navegador.get("https://leomadeiras.routeasy.com.br/#!/dashboard")
-time.sleep(5)
+time.sleep(3)
 
 username = navegador.find_element_by_xpath('//*[@id="page-top"]/section/div/div/div/div/div[1]/form[1]/div[1]/input')
 password = navegador.find_element_by_xpath('//*[@id="page-top"]/section/div/div/div/div/div[1]/form[1]/div[2]/input')
