@@ -1,1 +1,1 @@
-#projetos em python
+Repositorio para armazenar todos os projetos de Python
