@@ -8,8 +8,8 @@ time.sleep(5)
 
 username = navegador.find_element_by_xpath('//*[@id="page-top"]/section/div/div/div/div/div[1]/form[1]/div[1]/input')
 password = navegador.find_element_by_xpath('//*[@id="page-top"]/section/div/div/div/div/div[1]/form[1]/div[2]/input')
-username.send_keys("bruno.marques@leomadeiras.com.br")
-password.send_keys("Broyz@1998")
+username.send_keys("")
+password.send_keys("")
 navegador.find_element_by_xpath('//*[@id="page-top"]/section/div/div/div/div/div[1]/form[1]/div[3]/button').click()
 time.sleep(5)
 
