@@ -11,8 +11,8 @@ while len(navegador.find_elements_by_id("side")) < 1:
     time.sleep(1)
 
 # já estamos com o login feito no whatsapp web
-numero = "+5511989420494"
-texto = "Via: Daum"
+numero = "+5511999999999"
+texto = "teste"
 x = 1
 
 while x < 20: 
